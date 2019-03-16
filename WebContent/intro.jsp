@@ -9,7 +9,7 @@
 </head>
 <body>
 <!-- The video -->
-<video autoplay muted id="myVideo">
+<video autoplay id="myVideo">
   <source src="intro.mp4" type="video/mp4">
 </video>
 <div class="content">
