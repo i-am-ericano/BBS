@@ -35,7 +35,7 @@
           <a class="dropdown-item" href="login.jsp">로그인</a>
           <a class="dropdown-item" href="join.jsp">회원가입</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="toGoList.jsp">to go list</a>
         </div>
       </li>
     </ul>
@@ -45,6 +45,47 @@
     </form>
   </div>
 </nav>
+
+<div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="1.jpg" class="d-block w-100" alt="on my way">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Travel is glamorous in retrospect.</h5>
+          <p>A man travels the world over in search of what he needs and returns home to find it.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="2.jpg" class="d-block w-100" alt="street">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Find your book</h5>
+          <p>The world is a book and those who do not travel read only one page.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="3.jpg" class="d-block w-100" alt="awsome">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>To travel is to take a journey into yourself.</h5>
+          <p>One's destination is never a place, but a new way of seeing things.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

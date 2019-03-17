@@ -35,7 +35,7 @@
           <a class="dropdown-item" href="login.jsp">로그인</a>
           <a class="dropdown-item" href="join.jsp">회원가입</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="toGoList.jsp">to go list</a>
         </div>
       </li>
     </ul>
