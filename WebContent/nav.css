@@ -1,4 +1,3 @@
-#nav
-{  
-  transition: background-color 200ms linear;      
-}
+body {
+	padding-top: 50px; 
+	}
